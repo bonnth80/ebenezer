@@ -1,0 +1,25 @@
+/* .app-content {
+   display: flex;
+   height: 100%;
+   border: 1px solid red;
+} */
+
+.nav-column {
+   display: flex;
+   flex-direction: column;
+   background-color: #BBB;
+   border: 1px solid black;
+   flex-basis: 240px;
+   flex-grow: 0;
+   flex-shrink: 0;
+   padding: 5px;
+}
+
+.mainstage {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   background-color: #FFF;
+   justify-content: flex-start;
+   padding: 1px solid green;
+}

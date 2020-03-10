@@ -1,0 +1,21 @@
+package business;
+
+public class App {
+	public static String test(String x) {
+		String result = new String("s");
+		
+		for (int i = 0; i < x.length(); i++) {
+			result.concat(Character.toString(x.charAt(i)));
+			result.concat(Character.toString(x.charAt(i)));
+		}
+		System.out.println("ff");
+		result.concat("Herp");
+		System.out.println(result);
+		return result;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(test("Hello"));
+	}
+
+}

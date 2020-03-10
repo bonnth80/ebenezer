@@ -1,0 +1,40 @@
+
+/* table styles */
+/* ===================================== */
+table {
+   --border-cellborder: 2px solid #C0C0C0;
+   --color-celltitlebg: #DDD;
+   --cell-padding: 6px;
+   width: 100%;
+   font-size: 14px;
+   border-collapse: collapse;
+}
+
+.bs-title {
+   background-color: var(--color-celltitlebg);
+}
+
+tr {
+   border: var(--border-cellborder);
+}
+
+th {
+   font-weight: 400;
+   text-align: left;
+   border-right: var(--border-cellborder);
+   padding: var(--cell-padding);
+}
+
+.table-data {
+   border-left: 0px;
+   border-right: var(--border-cellborder);
+   text-align: right;
+   padding-left: 20px;
+   padding-right: var(--cell-padding);
+}
+
+.table-tab {
+   padding: 0px;
+   min-width: 0px;
+   width: 20px;
+}

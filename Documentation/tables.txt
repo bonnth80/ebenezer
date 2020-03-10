@@ -1,0 +1,39 @@
+Transaction
+   transaction_id
+   book_id
+   acting_party
+   credit (type?)
+   debit (type?)
+   category
+   date
+   time
+   notes
+   
+acting_party
+   acting_party_id
+   book_id
+   name
+   address
+   contact_name
+   contact_numbers
+
+projection
+   projection_id
+   book_id
+   month
+   year
+   category
+   debit
+   credit
+
+book
+   book_id
+   user_id
+   starting_balance
+
+user
+   user_id
+   first_name
+   last_name
+   password
+

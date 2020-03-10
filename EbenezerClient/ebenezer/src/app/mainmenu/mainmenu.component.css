@@ -1,0 +1,31 @@
+app-profile {
+   border: 1px solid black;
+   border-radius: 2px;
+   display: flex;
+   background-color: #FFF;
+   padding: 4px;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.menu-links {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.menu-link {
+   margin: 4px 8px;
+}
+
+.menu-link a {
+   text-decoration: none;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   /* margin: 8px; */
+}
+
+.hrule hr {
+   width: 60%;
+   border: 1px solid white;
+}

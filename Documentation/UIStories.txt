@@ -1,0 +1,80 @@
+Summary:
+   Month:
+   Starting Balance:
+      Available:
+      Savings:
+      Tertiary:
+   Projected:
+      Available:
+      Savings:
+
+Overview:
+                  Start       Projected         Difference
+Available
+   Income Sources:
+      Work Check:
+   Expenses:
+      Totals:
+Saved
+   Distribution
+Total
+
+Income sources:
+   Work Pay:
+   Bonuses:
+   Other:
+
+Expenses:
+   MONTHLY:
+      Priority 1: Monthly
+         Utilities:
+            Electric
+            Phone
+            Cable
+            Internet
+            Gas
+            Trash
+         Bills:
+            Rent / Mortgage
+            Car
+      
+      Priority 2: Savings
+         2 Months Paycheck
+         Health Emergency
+         Retirement
+         Property Fund (Car, Home)
+         Vacation
+   
+   DAILY:
+      Priority 3: Adjustables
+         Food
+         Gas
+         Hygiene
+         Stationary
+         Kitchen
+         Tools
+         Cleaning
+         
+      Priority 4: Personal
+         Clothes
+         Furniture / Decor
+         Books
+         Games
+         Media
+         Hobbies   
+
+Daily Transactions: 
+                     1  2  3  4  5  6  7  8  9  10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 Total Daily Average
+Food
+Gas
+Hygiene
+Stationary
+Kitchen
+Tolls
+Cleaning
+Clothes
+Furniture / Decor
+Books
+Games
+Media
+Hobbies

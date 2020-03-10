@@ -1,0 +1,27 @@
+app-banner {
+   display: flex;
+   background-color: #FFF;
+   border: 1px solid black;
+   flex-grow: 0;
+   align-items: center;
+}
+
+.toprow {
+   display: flex;
+   margin: 2px;
+   flex-wrap: wrap;
+}
+
+app-summarysheet {
+   /* border: 1px solid black;
+   background-color: #FAA; */
+   margin: 4px;
+   flex: 1;
+}
+
+app-overviewsheet {
+   /* border: 1px solid black;
+   background-color: #FFA; */
+   margin: 4px;
+   flex: 1;
+}

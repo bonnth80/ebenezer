@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+   height: 100%;
+}
+
+body {
+   font-family: Helvetica, Arial, sans-serif;
+   padding: 0px;
+   margin: 0px;
+   /* border: 2px dashed blue; */
+   height: 100%
+}
+
+app-root {
+   display: flex;
+   height: 100%;
+   /* border: 2px dotted red; */
+}

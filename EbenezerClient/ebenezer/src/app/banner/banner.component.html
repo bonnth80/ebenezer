@@ -1,0 +1,31 @@
+<div class="banner-name">
+   <div class="banner-text">
+      <i class="fas fa-book-open"></i>
+      <!-- {{bookName}} -->
+   </div>
+</div>
+
+<div class="banner-center">
+   <div class="book-center">
+      <div class="btn btn-caret">
+         <i class="banner-element fas fa-chevron-left"></i>
+      </div>
+      <div class="banner-element book-date">
+         <div class="book-time">
+            {{bookMonth | uppercase}}
+         </div>
+         <div class="book-time">
+            {{bookYear}}
+         </div>
+      </div>
+      <div class="btn btn-caret">
+         <i class="banner-element fas fa-chevron-right"></i>
+      </div>
+   </div>
+</div>
+
+<div class="banner-hamburger">
+   <div class="btn btn-menu">
+      <i *ngIf="showHamburger" class="fas fa-bars"></i>
+   </div>
+</div>
