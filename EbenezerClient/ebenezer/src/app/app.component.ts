@@ -10,7 +10,7 @@ import { Component, Inject } from '@angular/core';
 })
 export class AppComponent {
   private title : string = 'ebenezer';
-  private navWidthMin : number = 768;
+  private navWidthMin : number = 760;
   private showMainMenu : boolean = true;
   constructor() {
   }

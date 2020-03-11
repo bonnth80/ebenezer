@@ -13,7 +13,7 @@ export class BannerComponent implements OnInit {
   private bookName : string = "Hello, Book Name";
   private bookMonth : string = "September";
   private bookYear : number = 2020;
-  private navWidthMin : number = 768;
+  private navWidthMin : number = 760;
   private showHamburger : boolean = false;
   constructor() {
   }
