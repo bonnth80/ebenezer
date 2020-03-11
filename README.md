@@ -13,3 +13,6 @@ A full stack java application for managing a personal budget.
 
 ### RDMS
 * Hibernate
+
+## Concept Link
+https://app.moqups.com/bkGTYluf4m/view/page/ad64222d5
