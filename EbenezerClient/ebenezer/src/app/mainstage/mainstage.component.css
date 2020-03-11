@@ -25,3 +25,9 @@ app-overviewsheet {
    margin: 4px;
    flex: 1;
 }
+
+app-tabbedsheets {
+   margin: 4px;
+   display: flex;
+   flex-direction: column;
+} 

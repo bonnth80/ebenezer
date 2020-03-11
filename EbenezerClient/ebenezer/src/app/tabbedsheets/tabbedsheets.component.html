@@ -1,1 +1,11 @@
-<p>tabbedsheets works!</p>
+<div class="tabs">
+   <div class="button-tab" (click)="changeActiveTab(EXPENSES_TAB)">EXPENSES</div>
+   <div class="button-tab">INCOME</div>
+   <div class="button-tab">SAVINGS</div>
+   <div class="button-tab" (click)="changeActiveTab(TRANSACTIONS_TAB)">TRANSACTIONS</div>
+   <div class="button-tab">ANALYSIS</div>
+</div>
+<div class="sheets">
+   <app-expensessheet *ngIf="getActiveTab() == EXPENSES_TAB"></app-expensessheet>
+   <app-transactionssheet *ngIf="getActiveTab() == TRANSACTIONS_TAB"></app-transactionssheet>
+</div>

@@ -1,0 +1,28 @@
+.tabs {
+   display: flex;
+   /* margin: 4px; */
+}
+
+.button-tab {
+   flex-grow: 1;
+   cursor: pointer;
+   border: 1px solid black;
+   border-top-left-radius: 8px;
+   border-top-right-radius: 8px;
+   padding: 8px 0px;
+   text-align: center;
+}
+
+.sheets {
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   /* padding: 4px; */
+   background-color: #f7f6f6;
+}
+
+app-expensessheet {
+   /* border: 2px dotted red; */
+   display: flex;
+   flex-wrap: wrap;
+}

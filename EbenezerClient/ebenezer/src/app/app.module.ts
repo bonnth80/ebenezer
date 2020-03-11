@@ -12,6 +12,7 @@ import { OverviewsheetComponent } from './overviewsheet/overviewsheet.component'
 import { TabbedsheetsComponent } from './tabbedsheets/tabbedsheets.component';
 import { ExpensessheetComponent } from './expensessheet/expensessheet.component';
 import { TransactionssheetComponent } from './transactionssheet/transactionssheet.component';
+import { ExpensetableComponent } from './expensetable/expensetable.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TransactionssheetComponent } from './transactionssheet/transactionsshee
     OverviewsheetComponent,
     TabbedsheetsComponent,
     ExpensessheetComponent,
-    TransactionssheetComponent
+    TransactionssheetComponent,
+    ExpensetableComponent
   ],
   imports: [
     BrowserModule,
